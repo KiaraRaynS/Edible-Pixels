@@ -1,4 +1,5 @@
 {% extends 'base.html' %}
+{% load staticfiles %}
 
 {% block bodycontent %}
 <div class='menubackground'>
@@ -6,8 +7,8 @@
     <h1 class='menutitle'>Edible Pixels Cat Cafe</h1>
     <hr>
     <h3 class='menutitle'>Drinks</h3>
-    <hr>
-    <span>Hello this is text</span><span class='nextitem'>More text</span>
+    <a href="{% url 'catuccinoview' %}"><img style='height: 100px; width: 100px;' src="{% static 'catuccino.png' %}"></a>
+    <br>
     <p></p>
   </div>
 </div>

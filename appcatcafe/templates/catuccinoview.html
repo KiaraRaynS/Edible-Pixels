@@ -1,0 +1,14 @@
+{% extends 'foodbase.html' %}
+{% load staticfiles %}
+
+{% block recipecontent %}
+<h3 class='menutitle'>Catuccino</h3>
+<hr>
+<img class='recipeimage' src="{% static 'catuccino.png' %}">
+<div class='recipedesciption'>
+  A rich blend of our house coffee and steamed milk crafted to greet you with a smiling cat face.
+  <br>
+  <i>Avaliable with flavoring and soy milk.</i>
+</div>
+{% endblock %}
+

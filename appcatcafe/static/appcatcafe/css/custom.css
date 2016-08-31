@@ -28,3 +28,16 @@ body {
 .nextitem {
   padding-left: 50px;
 }
+
+.recipeimage {
+  position: relative;
+  float: left;
+  width: 150px;
+  height: 150px;
+  border-radius: 5px;
+}
+.recipedescription {
+  position: relative;
+  float: right;
+  min-height: 150px;
+}
